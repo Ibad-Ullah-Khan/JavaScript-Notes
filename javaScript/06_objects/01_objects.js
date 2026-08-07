@@ -20,3 +20,5 @@ console.log(student)
 // Deleting value
 delete student.class
 console.log(student)
+// Other method to access the item
+console.log(student['name'])
