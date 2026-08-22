@@ -16,12 +16,12 @@ console.log(student);
 
 // with shorthand property
 
-const name = "Ibad";
-const age = 21;
+const namee = "Ibad";
+const agee = 21;
 
-const student = {
-    name,
-    age
+const studentt = {
+    namee,
+    agee
 };
 
-console.log(student);
+console.log(studentt);
