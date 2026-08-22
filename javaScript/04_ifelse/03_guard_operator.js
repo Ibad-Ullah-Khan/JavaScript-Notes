@@ -7,5 +7,5 @@ condition && expression
 let isLoggedIn = true;
 isLoggedIn && console.log("Welcome!");
 
-let isLoggedIn = false;
+isLoggedIn = false;
 isLoggedIn && console.log("Welcome!");
