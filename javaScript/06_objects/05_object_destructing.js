@@ -10,9 +10,9 @@ const student = {
     city: "Mardan"
 };
 
-const name = student.name;
-const age = student.age;
-const city = student.city;
+const namee = student.name;
+const agee = student.age;
+const cityy = student.city;
 
 console.log(name);
 console.log(age);
@@ -20,7 +20,7 @@ console.log(city);
 
 // With destructing
 
-const student = {
+const studentt = {
     name: "Ibad",
     age: 21,
     city: "Mardan"
