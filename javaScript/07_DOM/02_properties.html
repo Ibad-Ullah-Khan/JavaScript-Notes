@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+</head>
+<body>
+    <button>Hello</button>
+    <script>
+        
+        // Properties of DOM
+        console.log(document.title);
+        document.title = 'changed';
+
+        console.log(document.body);
+        console.log(typeof document.body);
+
+        // innerHTML controls all the html inside the body
+        console.log(document.body.innerHTML);
+
+        // We can also write html code
+        document.body.innerHTML = '<button> Hello world </button>';
+
+    </script>
+</body>
+</html>

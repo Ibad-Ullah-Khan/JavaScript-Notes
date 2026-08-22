@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Hello</button>
+    <script>
+        // Method of DOM
+
+        /*
+        document.querySelector() is a DOM method used to select the first HTML element
+        Text in the single qoutes represent the html element we want
+        */
+
+        console.log(document.querySelector('button'));
+
+        // Every Html element has a propety called innerHTML
+        console.log(document.querySelector('button').innerHTML)
+        // It will give html inside the button
+        // If we change the property the html inside will change like :
+
+        console.log(document.querySelector('button').innerHTML = 'Hello Ibad')
+    </script>
+</body>
+</html>
