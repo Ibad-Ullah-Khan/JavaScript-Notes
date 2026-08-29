@@ -82,6 +82,7 @@ Primitive Data Types
 
 Primitive data types store a single simple value.
 call by value
+Stack memory
 
 String
 Number
@@ -97,6 +98,7 @@ Non-Primitive Data Types(Reference)
 
 Non-primitive data types can store multiple values or more complex data.
 Arrays and functions are special kinds of objects.
+Heap Memory
 */
 
 // Object
