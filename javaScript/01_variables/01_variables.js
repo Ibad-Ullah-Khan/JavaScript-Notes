@@ -81,6 +81,7 @@ console.log(job,"\nType: ",typeof job)
 Primitive Data Types
 
 Primitive data types store a single simple value.
+call by value
 
 String
 Number
@@ -92,7 +93,7 @@ Symbol
 */
 
 /*
-Non-Primitive Data Types
+Non-Primitive Data Types(Reference)
 
 Non-primitive data types can store multiple values or more complex data.
 Arrays and functions are special kinds of objects.
