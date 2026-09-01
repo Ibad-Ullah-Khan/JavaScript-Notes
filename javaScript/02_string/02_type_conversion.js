@@ -35,6 +35,9 @@ console.log(Number(false));
 
 //6. Boolean → String
 
+console.log(String(true));
+console.log(String(false));
+
 // Conversion of '33abc' into number => NaN but type will be number
 
 
