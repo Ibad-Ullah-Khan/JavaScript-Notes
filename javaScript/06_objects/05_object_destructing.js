@@ -14,9 +14,9 @@ const namee = student.name;
 const agee = student.age;
 const cityy = student.city;
 
-console.log(name);
-console.log(age);
-console.log(city);
+console.log(namee);
+console.log(agee);
+console.log(cityy);
 
 // With destructing
 
@@ -26,8 +26,8 @@ const studentt = {
     city: "Mardan"
 };
 
-const { name, age, city } = student;
+const { name: myNmae, age, city } = student;
 
-console.log(name);
+console.log(myNmae);
 console.log(age);
 console.log(city);
