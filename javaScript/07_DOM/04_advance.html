@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <button>Hello</button>
+    <button class="helloBtn">Hello</button>
     <button class="js_button">Second Button</button>
 
     <script>
@@ -17,6 +17,9 @@
 
         const buttonElement = document.querySelector('.js_button')
         console.log(buttonElement)
+
+        // we can also get the elements by it ids or it class names here is how can we do that 
+        const helloBtn = document.getElementsByClassName("helloBtn");
     </script>
 </body>
 </html>
